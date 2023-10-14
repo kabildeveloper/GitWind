@@ -26,7 +26,7 @@ To install `GitWind`, follow these steps:
 1. Download the GitWind installer for your operating system from the release section of the GitHub.
 2. Run the installer and follow the on-screen instructions.
 3. Launch GitWind after the installation is complete.
-##### Caution: We recommend using `install for the current account` for your use only, rather than `installing for all users`.
+Caution: We recommend using `install for the current account` for your use only, rather than `installing for all users`.
 ___
 <a name="usage"></a>
 ## Usage
