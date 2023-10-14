@@ -1,0 +1,31 @@
+.gw-card-account {
+	border: 3px solid #252525;
+	background: #FFFFFF;
+	width: 310px;
+	height: 70px;
+}
+
+.gw-card-account.active {
+	border-color: #14B8A6;
+}
+
+.gw-card-account .user-name {
+	font-size: 18px;
+	color: #2e2e2e;
+	font-weight: 600;
+}
+
+.gw-card-account .user-email {
+	font-size: 18px;
+	color: #7c7c7c;
+	font-weight: 400;
+}
+
+.gw-existing-account .delete {
+	width: fit-content;
+	height: fit-content;
+}
+
+.gw-existing-account .delete .icon {
+	cursor: pointer;
+}

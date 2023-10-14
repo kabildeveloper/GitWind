@@ -1,0 +1,24 @@
+.gw-dropdown-control {
+	height: 54px;
+	border: 1px solid #a4a4a4;
+	padding: 0 0 0 10px;
+	font-size: 16px !important;
+	font-family: 'Inter', sans-serif !important;
+	display: flex;
+	align-items: center;
+	color: #2E2E2E !important;
+}
+
+.gw-dropdown-menu .Dropdown-option {
+	font-size: 16px;
+	color: #2e2e2e;
+}
+
+.gw-dropdown-menu .Dropdown-option:hover {
+	background-color: #dafcf5;
+}
+
+.gw-dropdown-menu .Dropdown-option.is-selected {
+	background-color: #14B8A6 !important;
+	color: #ffffff;
+}

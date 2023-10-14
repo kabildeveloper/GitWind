@@ -1,0 +1,21 @@
+.gw-browse-input-container {
+	border: 2px solid #14B8A6;
+	font-size: 16px;
+	width: 100%;
+	height: 54px;
+}
+
+.gw-browse-input-container button {
+	height: 100%;
+	width: 58px;
+	background-color: #14B8A6;
+}
+
+.gw-browse-input-container input {
+	height: 100%;
+	flex-grow: 1;
+	border: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 16px;
+}

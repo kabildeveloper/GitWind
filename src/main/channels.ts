@@ -1,0 +1,5 @@
+export type Channels = 'ipc-example' | 'on-click-account' | 'on-click-browse' | 'on-click-browse-file'
+	| 'selected-dir-path' | 'selected-ssh-file-path' | 'save-user' | 'save-user-response' | 'all-users'
+	| 'all-users-response' | 'delete-user' | 'delete-user-response' | 'on-save-user-repo' | 'on-save-user-repo-response'
+	| 'on-clone' | 'clone-progress' | 'clone-response' | 'init-repo' | 'init-repo-response'
+	| 'update-available' | 'update-downloaded' | 'update-not-available' | 'download-update' | 'install-update'

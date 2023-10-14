@@ -1,0 +1,10 @@
+.gw-modal {
+
+}
+
+.gw-modal-container {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(16, 16, 16, 0.47);
+}

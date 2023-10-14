@@ -1,0 +1,192 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~react-toastify/dist/ReactToastify.min.css";
+@import "~react-dropdown/style.css";
+@import "fonts.css";
+
+:root {
+	--gw-primary-color: #14B8A6;
+	--gw-dark-color: #2E2E2E;
+
+	--gw-bg-primary-light: #14B8A614;
+	--gw-text-dark: #2e2e2e;
+	--gw-text-grey: #7c7c7c;
+	--gw-text-placeholder: #8B8B8B;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter', sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+}
+
+button {
+	padding: 10px 20px;
+	border: none;
+	appearance: none;
+	cursor: pointer;
+}
+
+button:disabled {
+	background-color: #a8a8a8;
+	color: #ffffff;
+	cursor: unset;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	height: fit-content;
+	width: fit-content;
+	margin: 10px;
+}
+
+a:hover {
+	opacity: 1;
+	text-decoration: none;
+}
+
+h3 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.landing-bg {
+	height: calc(100vh - 75px);
+	background-image: url("../../assets/gwbg.png") !important;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+input:focus-visible {
+	border: none;
+	outline: none;
+}
+
+.gw-input-box {
+	border: 1px solid #a4a4a4;
+	height: 52px;
+	min-width: 300px;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.accounts-list-button {
+	border: 1px solid white;
+	padding: 10px;
+	margin: 10px 0px;
+	cursor: pointer;
+}
+
+.accounts-list-button:hover, .accounts-list-button.active {
+	background-color: rgba(255, 255, 255, 0.42);
+}
+
+.repo {
+	margin-top: 10px;
+}
+
+.repo-actions button:first-child {
+	margin-right: 10px;
+}
+
+.repo-dir {
+	padding: 8px;
+	border: 2px solid white;
+	margin-bottom: 10px;
+}
+
+.secondary-button {
+	background-color: #101010;
+	color: #ffffff;
+}
+
+/*.gw-banner-button {
+	background-color: var(--gw-primary-color);
+	color: white;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+	width: 202px;
+	height: 162px;
+}*/
+
+.gw-banner-button {
+	color: var(--gw-text-dark);
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+	width: 202px;
+	font-size: 18px;
+	transition: all 150ms ease;
+	font-weight: 700;
+}
+
+.gw-banner-button:hover {
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+	background-color: var(--gw-primary-color);
+	color: white;
+}
+
+.gw-info-banner {
+	border: 1px solid rgba(24, 206, 186, 0.25);
+	background: rgba(20, 184, 166, 0.08);
+	font-size: 14px;
+}
+
+.gw-button {
+	padding: 8px 16px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.gw-button-primary {
+	background: var(--gw-primary-color);
+	color: #FFFFFF;
+}
+
+.gw-button-dark {
+	background: #2e2e2e;
+	color: #FFFFFF;
+}
+
+.gw-card-accounts-container {
+	overflow-y: auto;
+	height: 300px;
+}
+
+.gw-card-accounts-container::-webkit-scrollbar {
+	width: 10px;
+	background-color: rgba(171, 171, 171, 0.14);
+}
+
+.gw-card-accounts-container::-webkit-scrollbar-thumb {
+	background-color: var(--gw-primary-color);
+}
+
+.progress-bar {
+	background-color: var(--gw-primary-color);
+}
+
+.Toastify__close-button {
+	align-self: unset;
+}
+
+
